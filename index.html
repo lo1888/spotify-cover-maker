@@ -92,7 +92,7 @@
     function finish(){
       canvas.toBlob(b=>{
         const u=URL.createObjectURL(b);
-        document.getElementById('out').src=u;
+        document.getElementById('out2').src=u;
         document.getElementById('out').style.display='inline';
         document.getElementById('dl').href=u;
         document.getElementById('dl').style.display='inline';
