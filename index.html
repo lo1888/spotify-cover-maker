@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="zh-CN"><head>
+<meta charset="utf-8"/>
+<title>歌单封面生成器</title>
+<link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+<canvas id="cv" width="1080" height="1080"></canvas>
+<div class="panel">
+  <input id="text" placeholder="封面文字" value="今晚地球跟我一起路"/>
+  <input type="color" id="bg" value="#000000"/>
+  <input type="color" id="color" value="#ffffff"/>
+  <button onclick="draw()">下载封面</button>
+</div>
+<script src="script.js"></script>
+</body></html>
